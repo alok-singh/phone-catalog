@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Loader from "../../components/loader";
 import Card from "../../components/card";
 
-import { deepCopy } from '../../utils/deepCopyObject';
 import { getApiData } from '../../utils/api';
 import { PHONE_LISTING } from '../../vars/paths';
 
