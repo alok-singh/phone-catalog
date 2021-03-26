@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+<a
+  class="item-card"
+  href="/link"
+>
+  <img
+    alt="title"
+    loading="lazy"
+    src="image"
+    title="title"
+  />
+  <div
+    class="card-title"
+  >
+    title
+  </div>
+  <div
+    class="card-price"
+  >
+    price
+  </div>
+</a>
+`;

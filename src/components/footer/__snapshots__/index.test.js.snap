@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<div
+  class="footer-wrapper"
+>
+  <div
+    class="footer-liks"
+  >
+    <a
+      class="footer-item"
+      href="/link"
+    >
+      <div
+        class="footer-text"
+      >
+        title
+      </div>
+    </a>
+  </div>
+  <div
+    class="copyright-text"
+  >
+    copyright
+  </div>
+</div>
+`;

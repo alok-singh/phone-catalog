@@ -6,7 +6,7 @@ import './styles.css';
 const Header = (props) => {
   return <div className="header-wrapper">
     {props.list.map(({link, title}) => {
-      return <Link className="header-item" to={link}>
+      return <Link className="header-item" to={link} key={link}>
         <div className="header-text">{title}</div>
       </Link>
     })}
