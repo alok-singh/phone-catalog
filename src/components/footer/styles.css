@@ -1,0 +1,28 @@
+.footer-wrapper {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 16px calc(10%);
+}
+
+.footer-wrapper .footer-liks {
+  display: flex;
+}
+
+.footer-wrapper .footer-item {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 8px 16px 8px 0px;
+}
+
+.footer-wrapper .copyright-text {
+  font-size: 12px;
+  margin: 16px 0px;
+}
+
+@media (max-width: 960px) {
+  .footer-wrapper {
+    padding: 12px 16px;
+  }
+}

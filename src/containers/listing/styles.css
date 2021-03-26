@@ -1,0 +1,16 @@
+.phone-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 80%;
+  margin: 32px auto;
+}
+
+@media (max-width: 960px) {
+  .phone-cards-wrapper {
+    width: 100%;
+    display: block;
+    padding: 0px 16px 16px;
+    margin: 16px auto;
+  }
+}
